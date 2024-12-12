@@ -10,19 +10,19 @@ jobs:
   build-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Set up Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v6
         with:
-          go-version: '1.23'
+          go-version-file: 'go.mod'
           check-latest: true
-          cache: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.13'
+          check-latest: true
 
       - name: Build
         run: python ./release.py
@@ -33,6 +33,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: './release/mosdns*.zip'
-          prerelease: true
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
