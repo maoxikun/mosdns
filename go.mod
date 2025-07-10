@@ -9,7 +9,7 @@ require (
 	github.com/google/nftables v0.3.0
 	github.com/kardianos/service v1.2.2
 	github.com/klauspost/compress v1.18.0
-	github.com/miekg/dns v1.1.66
+	github.com/miekg/dns v1.1.67
 	github.com/nadoo/ipset v0.5.0
 	github.com/prometheus/client_golang v1.22.0
 	github.com/quic-go/quic-go v0.52.0
