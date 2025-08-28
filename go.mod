@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/IrineSistiana/go-bytes-pool v0.0.0-20230918115058-c72bd9761c57
-	github.com/go-chi/chi/v5 v5.2.2
+	github.com/go-chi/chi/v5 v5.2.3
 	github.com/go-viper/mapstructure/v2 v2.4.0
 	github.com/google/nftables v0.3.0
 	github.com/kardianos/service v1.2.4
