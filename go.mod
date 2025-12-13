@@ -26,7 +26,7 @@ require (
 	golang.org/x/sync v0.19.0
 	golang.org/x/sys v0.39.0
 	golang.org/x/time v0.14.0
-	google.golang.org/protobuf v1.36.10
+	google.golang.org/protobuf v1.36.11
 )
 
 replace github.com/nadoo/ipset v0.5.0 => github.com/IrineSistiana/ipset v0.5.1-0.20220703061533-6e0fc3b04c0a
