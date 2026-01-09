@@ -11,7 +11,7 @@ require (
 	github.com/google/nftables v0.3.0
 	github.com/kardianos/service v1.2.4
 	github.com/klauspost/compress v1.18.2
-	github.com/miekg/dns v1.1.69
+	github.com/miekg/dns v1.1.70
 	github.com/nadoo/ipset v0.5.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/quic-go/quic-go v0.58.0
@@ -58,8 +58,8 @@ require (
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/mod v0.30.0 // indirect
+	golang.org/x/mod v0.31.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
-	golang.org/x/tools v0.39.0 // indirect
+	golang.org/x/tools v0.40.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
