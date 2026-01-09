@@ -130,7 +130,7 @@ func Test_fastUpstream(t *testing.T) {
 						u, err := NewUpstream(
 							scheme+"://"+addr,
 							Opt{
-								IdleTimeout: time.Second,
+								IdleTimeout: idleTimeout,
 								TLSConfig:   &tls.Config{InsecureSkipVerify: true},
 							},
 						)
