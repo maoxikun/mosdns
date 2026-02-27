@@ -108,7 +108,6 @@ func (ctx *Context) QQuestion() dns.Question {
 // It's a helper func for searching opt in Q() manually.
 func (ctx *Context) QOpt() *dns.OPT {
 	opt := findOpt(ctx.query)
-	ctx.query.IsEdns0()
 	if opt == nil {
 		panic("query opt is missing")
 	}
