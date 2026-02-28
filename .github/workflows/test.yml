@@ -14,7 +14,7 @@ jobs:
         with:
           go-version: "1.26"
           check-latest: true
-          cache: true
+          cache: false
 
       - name: Build
         run: go build -v ./...
